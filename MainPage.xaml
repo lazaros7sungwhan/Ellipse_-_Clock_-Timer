@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="BlankApp7.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlankApp7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignHeight="351.111" d:DesignWidth="564.175">
+
+    <Canvas x:Name="SP1" Margin="0,0,0,0">
+        <Canvas.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Canvas.Background>
+        <Button x:Name="myButton" Foreground="black" Background="AliceBlue" Click="ClickHandler" Height="45" Width="111" Content="Click Me" Canvas.Left="436" Canvas.Top="27" VerticalAlignment="Top" />
+        <TextBox x:Name="tsetbox1" Canvas.Left="437" TextWrapping="Wrap" Text="TextBox" Canvas.Top="108" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.395,-2.219"/>
+    </Canvas>
+</Page>
